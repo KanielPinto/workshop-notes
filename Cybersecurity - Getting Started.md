@@ -10,7 +10,7 @@ Part of the VAPT Team at 63SATS.
 ## **Main Areas / Job Profiles**
 
 ----
-### **Vulnerability Analysis and Penetration Testing (VAPT)**
+### Vulnerability Analysis and Penetration Testing (VAPT)
 
 A vulnerability assessment focuses on scanning hosts for vulnerabilities as individual entities so that security deficiencies can be **identified** and effective security measures can be deployed to **protect** the network in a prioritized manner. Most of the work can be done with automated tools and performed by operators without requiring much technical knowledge.
 
@@ -22,7 +22,7 @@ Penetration tests might start by scanning for vulnerabilities just as a regular�
 - Collaborate with development teams to ensure secure coding practices.
 
 ---
-### **Red Teaming**
+### Red Teaming
 
 To keep up with the emerging threats, red team engagements were designed to shift the focus from regular penetration tests into a process that allows us to clearly see our defensive team's capabilities at **detecting** and **responding** to a real threat actor. They don't replace traditional penetration tests, but complement them by focusing on detection and response rather than prevention.
 
@@ -35,7 +35,7 @@ Red teams are tasked with mimicking the behaviour of cybercriminals or nation-st
 - Provide insights into how adversaries could breach systems and exploit vulnerabilities.
 
 ---
-### **Blue Teaming**
+### Blue Teaming
 
 **Blue Teaming** focuses on defending an organization from cyberattacks and maintaining strong security measures. The blue team is responsible for identifying potential vulnerabilities, responding to security incidents, and continuously improving an organization's defence mechanisms. While red teams actively attempt to breach the system, blue teams work to detect, prevent, and mitigate these attacks.
 
@@ -62,7 +62,7 @@ A **Digital Forensics Examiner** recovers, analyzes, and preserves digital evide
 A **Malware Analyst** studies and dissects malicious software to understand its behavior, develop detection methods, and assist in mitigating future threats.
 
 ---
-### **Governance, Risk and Compliance (GRC)**
+### Governance, Risk and Compliance (GRC)
 
 **Governance, Risk, and Compliance (GRC)** is a critical aspect of cybersecurity that focuses on aligning security practices with regulatory requirements, managing risk, and ensuring an organization is in compliance with relevant laws and industry standards. GRC professionals help organizations define their security policies, assess risks, and ensure adherence to various laws and frameworks like GDPR, HIPAA, and ISO 27001.
 
@@ -130,11 +130,18 @@ Overall, the importance of addressing vulnerabilities and maintaining strong sec
 
 #### 1. Web
 
+For **web applications**, the focus is primarily on identifying common vulnerabilities such as injection attacks (like SQL Injection and Cross-Site Scripting), broken authentication mechanisms, improper session management, and issues with input validation. A critical aspect of web testing is also evaluating the security of APIs and ensuring that sensitive data is protected from unauthorized access, both in storage and during transmission. VAPT for web applications aims to ensure that users and systems can’t be manipulated into gaining unauthorized access.
 #### 2. Servers
 
-#### 3. Thick Client
+For **servers**, the VAPT process focuses on identifying misconfigurations, outdated software, and potential weaknesses in running services. This includes checking for unpatched vulnerabilities, improper file system permissions, and configuration errors that could expose sensitive data or lead to privilege escalation. The security of network services and the overall integrity of server configurations are key areas of concern to ensure the server is protected from unauthorized access and exploitation.
+#### 3. Desktop Applications
+
+In the case of **desktop applications**, the testing primarily revolves around examining the application’s local storage of sensitive data, ensuring that it is encrypted and not exposed to unauthorized access. Another critical focus is reverse-engineering the client-side application to identify any potential flaws in its design, such as hardcoded credentials or vulnerabilities that could be exploited to bypass security measures. Additionally, testing evaluates the security of communication between the client and the server, looking for unencrypted channels or weak session management.
 
 #### 4. Mobile
+
+For **mobile applications**, VAPT emphasizes the need to protect sensitive data stored on the device, ensuring that it is encrypted and not accessible in plaintext. Secure communication between the mobile app and the backend server is another important focus, with a particular emphasis on ensuring that data is transmitted securely via protocols like HTTPS. Mobile testing also includes verifying that authentication and session management practices are robust and do not expose users to risks. Finally, it is critical to check that mobile applications only request necessary permissions and do not misuse sensitive device features, like location services or cameras, in ways that could compromise user privacy.
+
 
 ---
 ### The OWASP Top 10 
@@ -147,7 +154,7 @@ https://owasp.org/www-project-top-ten/
 ## **Roadmap and Resources**
 
 ---
-### Pre-Requisites:
+### Pre-Requisites
 
 1. IT Basics
 2. Hands-on familiarity with actually using Linux and Windows
